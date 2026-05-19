@@ -458,26 +458,25 @@ footer{
 }
 
 .footer-socials a{
-    .footer-socials a{
-
-color:white;
-
-text-decoration:none;
-
-transition:0.4s;
-
-padding:10px 18px;
-
-border-radius:20px;
-
-background:rgba(
-255,
-255,
-255,
-0.03
-);
-
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.03);
+    transition:0.4s;
+    display:inline-block;
 }
+
+.footer-socials a:hover{
+    transform:translateY(-5px) scale(1.05);
+    color:#7b8fff;
+    background:rgba(123,143,255,0.15);
+    box-shadow:0 15px 40px rgba(111,140,255,0.5);
+}
+
+
+
+
 
 .footer-socials a:hover{
 
@@ -493,7 +492,7 @@ background:rgba(
 );
 
 }
-}
+
 
 .footer-socials a:hover{
     color:#7b8fff;
